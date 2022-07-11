@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url('boss.jpg');
+}
+.header h1{
+    font-size: 40px;
+    display: inline-block;
+    background-color: rgb(244,75,140);
+    background-image: linear-gradient(to bottom right, rgb(252,62,85),rgb(248,68,112),rgb(244,75,140));    
+    color: white;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.header{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* justify-content: space-between; */
+    
+}
+.header button:hover{
+    border: 1px solid #FF6C75;
+}
+.header button{
+    border: none;
+    background-color: white;
+    font-size: large;
+    font-weight: 200;
+    color: #FF6C75;
+    /* padding-left:30px ;
+    padding-right:30px ; */
+    margin-top: 30px;
+    /* padding-bottom: 20px; */
+    border-radius: 5px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.header .nav:hover{
+    color: #FF6C75;
+}
+.header .nav{
+    color: rgb(105, 104, 104);
+    font-size: larger;
+    font-weight: 700;
+    padding-left: 60px;
+}
+.body-container{
+    /* background-color: aqua; */
+    /* display: inline-block; */
+}
+
+.left button{
+    border: 1px solid rgb(216, 211, 211) ;
+    border-radius: 4px;
+    background-color: rgb(244, 241, 241);
+    color: rgb(86, 82, 82);
+    font-size: medium;
+    padding: 10px;
+}
+.butt{
+    color:#FF6C75 ;
+}
+.left-top{
+    height:25vh;
+}
+.left{
+    padding-left: 50px;
+    /* background-color: antiquewhite; */
+}
+.left h2{
+    /* display: inline-block; */
+    font-size: 70px;
+    color: rgb(36,62,100);
+    font-weight: 1000;
+    
+}
+.left .tit{
+    color:rgb(126, 125, 125) ;
+    font-size: large;
+    font-weight: 550;
+}
+.footer{
+    /* background-color: red; */
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+.footer .btnone {
+    background: #00b894;
+    /* background: #fff; */
+    color: white;
+    
+  }
+  
+  .btnone:hover {
+    /* background: #00b894; */
+    background: #fff; 
+    color: #000;
+    
+  }
+  
+  .footer .btntwo {
+    background: #00b894;
+    color: white;
+  }
+  
+  .btntwo:hover {
+    background: #fff;
+    color: #000;
+  }
+  .footer .btnthree {
+    background: #00b894;
+    color: white;
+  }
+  
+  .btnthree:hover {
+      background: #fff;
+      color: #000;
+  }
+  .footer .btnfour {
+    background: #00b894;
+    color: white;
+  }
+  .btnfour:hover {
+      background: #fff;
+      color: #000;
+  }
